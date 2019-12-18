@@ -1,0 +1,28 @@
+{
+  "name": "beecomprg/module-sort-by-stock-status",
+  "description": "Magento 2 catalog - sort products by stock status",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "version": "0.0.1",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Beecom",
+      "email": "info@beecom.io",
+      "homepage": "http://www.beecom.io"
+    }
+  ],
+  "require": {
+    "beecomprg/magento-2-module-core": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Beecom\\SortByStockStatus\\": ""
+    }
+  }
+}
